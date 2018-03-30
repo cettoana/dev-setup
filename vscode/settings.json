@@ -1,0 +1,44 @@
+// 將您的設定放入此檔案中以覆寫預設值
+{
+  "diffEditor.ignoreTrimWhitespace": true,
+
+  "editor.tabSize": 2,
+  "editor.fontFamily": "'Fira Code'",
+  "editor.fontSize": 16,
+  "editor.fontLigatures": true,
+  "editor.scrollBeyondLastLine": false,
+
+  "emmet.triggerExpansionOnTab": true,
+
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "files.trimFinalNewlines": true,
+
+  "flow.useNPMPackagedFlow": true,
+
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+    "suppressUpdateNotice": false,
+    "suppressWelcomeNotice": true
+  },
+  "gitlens.gitExplorer.files.layout": "tree",
+  "gitlens.keymap": "alternate",
+
+  "git.autofetch": true,
+  "git.confirmSync": false,
+
+  "javascript.validate.enable": false,
+
+  "window.zoomLevel": 0,
+
+  "workbench.colorTheme": "Ayu Dark",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "newUntitledFile",
+
+  "xo.enable": true
+}
