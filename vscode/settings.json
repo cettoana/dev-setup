@@ -1,44 +1,49 @@
 // 將您的設定放入此檔案中以覆寫預設值
 {
-  "diffEditor.ignoreTrimWhitespace": true,
+    "csharp.suppressDotnetInstallWarning": true,
+    "editor.tabSize": 2,
+    "editor.fontFamily": "Hack",
+    "editor.fontSize": 16,
+    "editor.fontLigatures": true,
+    "editor.scrollBeyondLastLine": false,
+    "editor.letterSpacing": 0.3,
+    "editor.fontWeight": "normal",
 
-  "editor.tabSize": 2,
-  "editor.fontFamily": "'Fira Code'",
-  "editor.fontSize": 16,
-  "editor.fontLigatures": true,
-  "editor.scrollBeyondLastLine": false,
+    "files.insertFinalNewline": true,
 
-  "emmet.triggerExpansionOnTab": true,
+    "javascript.validate.enable": false,
+    "workbench.startupEditor": "newUntitledFile",
 
-  "files.insertFinalNewline": true,
-  "files.trimTrailingWhitespace": true,
-  "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
 
-  "flow.useNPMPackagedFlow": true,
+    "emmet.triggerExpansionOnTab": true,
 
-  "gitlens.advanced.messages": {
-    "suppressCommitHasNoPreviousCommitWarning": false,
-    "suppressCommitNotFoundWarning": false,
-    "suppressFileNotUnderSourceControlWarning": false,
-    "suppressGitVersionWarning": false,
-    "suppressLineUncommittedWarning": false,
-    "suppressNoRepositoryWarning": false,
-    "suppressUpdateNotice": false,
-    "suppressWelcomeNotice": true
-  },
-  "gitlens.gitExplorer.files.layout": "tree",
-  "gitlens.keymap": "alternate",
+    "flow.useNPMPackagedFlow": true,
 
-  "git.autofetch": true,
-  "git.confirmSync": false,
-
-  "javascript.validate.enable": false,
-
-  "window.zoomLevel": 0,
-
-  "workbench.colorTheme": "Ayu Dark",
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.startupEditor": "newUntitledFile",
-
-  "xo.enable": true
+    "xo.enable": true,
+    "gitlens.advanced.messages": {
+        "suppressFileNotUnderSourceControlWarning": true,
+        "suppressShowKeyBindingsNotice": true,
+        "suppressWelcomeNotice": true
+    },
+    "window.zoomLevel": 0,
+    "workbench.colorTheme": "Ayu Dark",
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "gitlens.gitExplorer.files.layout": "tree",
+    "workbench.iconTheme": "material-icon-theme",
+    "gitlens.keymap": "alternate",
+    "diffEditor.ignoreTrimWhitespace": true,
+    "gitlens.historyExplorer.enabled": true,
+    "gitlens.views.repositories.files.layout": "tree",
+    "gitlens.views.fileHistory.enabled": true,
+    "gitlens.views.lineHistory.enabled": true,
+    "go.buildTags": "doc",
+    "editor.renderWhitespace": "all",
+    "editor.minimap.enabled": true,
+    "breadcrumbs.enabled": false,
+    "workbench.statusBar.visible": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "go.formatTool": "gofmt"
 }
